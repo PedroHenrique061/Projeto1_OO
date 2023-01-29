@@ -12,7 +12,7 @@ import javax.swing.*;
 import Controller.ControllerDados;
 
 	/**
-	 * Constroi uma tela de menu para o usuario realizar a ação que deseja
+	 * Constroi uma tela de menu para o usuario realizar a ação que deseja. 
  	*/
 	public class TelaMenuPrincipal implements ActionListener{
 
