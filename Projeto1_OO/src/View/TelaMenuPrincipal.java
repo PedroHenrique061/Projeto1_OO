@@ -14,7 +14,7 @@ import Controller.ControllerDados;
 	/**
 	 * Constroi uma tela de menu para o usuario realizar a ação que deseja. 
  	*/
-	public class TelaMenuPrincipal implements ActionListener{
+	public class TelaMenuPrincipal implements ActionListener{ 
 
 	private JFrame frame1 = new JFrame("Controle de Album de Figurinha");
 	private JLabel titulo = new JLabel("Menu Principal");
