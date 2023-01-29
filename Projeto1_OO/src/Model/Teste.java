@@ -12,15 +12,6 @@ public class Teste{
 	/*
 	public static void main(String[] args) {
 		
-		
-		Usuario usuario1 = new Usuario();
-		usuario1.setNome("Pedro");
-		usuario1.setCpf("000.000.000.01");
-		usuario1.setTelefone("61999999999");
-		usuario1.setAlbum(new ArrayList<AlbumFigurinhas>());
-		System.out.println(usuario1);
-		System.out.println("");
-
 		AlbumFigurinhas album1 = new AlbumFigurinhas();
 		album1.setId(01);
 		album1.setQuantidadePaginas(100);

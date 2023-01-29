@@ -1,9 +1,8 @@
 package Model;
 
+
 public class Dados {
 
-	private Usuario[] usuario = new Usuario[50];
-	private int qtdUsuarios = 0;
 	private AlbumFigurinhas[] albumFigurinhas = new AlbumFigurinhas[50];
 	private int qtdAlbuns = 0;
 	private FigurinhaJogador[] figurinhaJogador = new FigurinhaJogador[50];
@@ -14,8 +13,6 @@ public class Dados {
 	public void adicionarDados(){
 		
 		for(int i = 0; i < 5; i++){
-			
-			usuario[i] = new Usuario("Pedro", "00000000001" +i, "61999999999");
 			
 			albumFigurinhas[i] = new AlbumFigurinhas("01"+i, 50, 300, "Copa do Mundo 2022", null);
 			
@@ -30,8 +27,7 @@ public class Dados {
 			figurinhaEstadio[i].setNome("Maracanã"+i);
 			figurinhaEstadio[i].setPreco(1.00);
 			figurinhaEstadio[i].setLendaria("Não");
-			
-			qtdUsuarios = 3;
+
 			qtdAlbuns = 3;
 			qtdFigurinhasJogadores = 3;
 			qtdFigurinhasEstadios = 3;
@@ -39,23 +35,7 @@ public class Dados {
 		}
 	}
 	
-	public Usuario[] getUsuario() {
-		return usuario;
-	}
-	
-	public void setUsuario(Usuario[] usuario) {
-		this.usuario = usuario;
-	}
-	
-	public int getQtdUsuarios() {
-		return qtdUsuarios;
-	}
-	
-	public void setQtdUsuarios(int qtdUsuarios) {
-		this.qtdUsuarios = qtdUsuarios;
-	}
-	
-	
+
 	public AlbumFigurinhas[] getAlbumFigurinhas() {
 		return albumFigurinhas;
 	}
@@ -103,11 +83,7 @@ public class Dados {
 	public void setQtdFigurinhasEstadios(int qtdFigurinhasEstadios) {
 		this.qtdFigurinhasEstadios = qtdFigurinhasEstadios;
 	}
-	
-	public void cadastrarUsuario(Usuario usuario, int pos){
-		this.usuario[pos] = usuario;
-		if(pos == qtdUsuarios) qtdUsuarios++;
-	}
+
 	
 	public void cadastrarAlbumFigurinha(AlbumFigurinhas albumFigurinhas, int pos){
 		this.albumFigurinhas[pos] = albumFigurinhas;

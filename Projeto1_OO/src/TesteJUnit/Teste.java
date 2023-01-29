@@ -17,19 +17,18 @@ public class Teste{
 	String[] novoDado = new String[7];
 	
 	/**
-	 * Verifica se o parametro 2, representando a posição do usuario no array, 
+	 * Verifica se o parametro 2, representando a 
+	 * posição da figurinha de estadiono array, 
 	 * funciona para o método em questão 
-	 * @return void
 	 */
 	@Test
-	public void testDeletarUsuario() {
-		assertTrue(dados.deletarUsuario(2));
+	public void testDeletarFigurinhaEstadio() {
+		assertTrue(dados.deletarFigurinhaEstadio(2));
 	}
 		/**
 		 * Verifica se o parametro novoDado, representando novos dados
 		 * para o objeto figurinha de jogador
 		 * funciona para o método em questão 
-		 * @return void
 		 */
 	
 	@Test
@@ -45,7 +44,6 @@ public class Teste{
 	}
 	/**
 	 * Verifica se o método em questão está funcionando corretamente, dado os parametros
-	 * @return void
 	 */
 	@Test
 	public void testEncontrarAlbum() {

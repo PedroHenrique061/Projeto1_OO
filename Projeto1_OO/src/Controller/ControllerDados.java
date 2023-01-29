@@ -22,47 +22,6 @@ public class ControllerDados {
 	}
 
 	/**
-	 * cadastra um usuario
-	 * @param dadosUsuario, passa os dados do usuario
-	 * @return true ou false
-	 */
-	public boolean cadastrarUsuario(String[] dadosUsuario) {
-
-		Usuario u = new Usuario(dadosUsuario[1], dadosUsuario[2], dadosUsuario[3]);
-		dados.cadastrarUsuario(u, Integer.parseInt(dadosUsuario[0]));
-
-		return true;
-	}
-
-	/**
-	 * Deleta o usuário escolhido
-	 * @param i, contador
-	 * @return true ou false
-	 */
-	public boolean deletarUsuario(int i) {
-		String usuarioDeletado = dados.getUsuario()[i].getCpf();
-
-		if (i == (dados.getQtdUsuarios() - 1)) {
-			dados.setQtdUsuarios(dados.getQtdUsuarios() - 1);
-			dados.getUsuario()[dados.getQtdUsuarios()] = null;
-			return true;
-		} else { // o usuario a ser removido está no meio do array
-			int cont = 0;
-			while (dados.getUsuario()[cont].getCpf().compareTo(usuarioDeletado) != 0) {
-				cont++;
-			}
-
-			for (int j = cont; j < dados.getQtdUsuarios() - 1; j++) {
-				dados.getUsuario()[j] = null;
-				dados.getUsuario()[j] = dados.getUsuario()[j + 1];
-			}
-			dados.getUsuario()[dados.getQtdUsuarios()] = null;
-			dados.setQtdUsuarios(dados.getQtdUsuarios() - 1);
-			return true;
-		}
-	}
-
-	/**
 	 * cadastra um album de figurinhas
 	 * @param dadosAlbumFigurinhas, passa os dados do album.
 	 * @return true ou false
@@ -249,14 +208,6 @@ public class ControllerDados {
 
 	public void setDados(Dados dados) {
 		this.dados = dados;
-	}
-
-	public Usuario[] getUsuario() {
-		return this.dados.getUsuario();
-	}
-
-	public int getQtdUsuarios() {
-		return this.dados.getQtdUsuarios();
 	}
 
 	public AlbumFigurinhas[] getAlbumFigurinhas() {

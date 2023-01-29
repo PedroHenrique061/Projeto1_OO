@@ -18,7 +18,6 @@ import Controller.ControllerDados;
 
 	private JFrame frame1 = new JFrame("Controle de Album de Figurinha");
 	private JLabel titulo = new JLabel("Menu Principal");
-	private static JButton usuario = new JButton("Usuário");
 	private static JButton figurinha = new JButton("Figurinha");
 	private static JButton buscarFigurinhaJogador = new JButton("Buscar Figurinha de Jogador");
 	private static JButton buscarFigurinhaEstadio = new JButton("Buscar Figurinha de Estádio");
@@ -33,12 +32,11 @@ import Controller.ControllerDados;
 	public TelaMenuPrincipal(){
 		titulo.setFont(new Font("Calibri", Font.BOLD, 20));
 		titulo.setBounds(125, 10, 150, 30);
-		usuario.setBounds(125, 50, 150, 30);
-		figurinha.setBounds(125, 100, 150, 30);
-		albumFigurinhas.setBounds(125, 150, 150, 30);
-		buscarFigurinhaJogador.setBounds(95, 200, 200, 30);
-		buscarFigurinhaEstadio.setBounds(95, 250, 200, 30);
-		buscarAlbumFigurinhas.setBounds(95, 300, 200, 30);
+		figurinha.setBounds(125, 50, 150, 30);
+		albumFigurinhas.setBounds(125, 100, 150, 30);
+		buscarFigurinhaJogador.setBounds(95, 150, 200, 30);
+		buscarFigurinhaEstadio.setBounds(95, 200, 200, 30);
+		buscarAlbumFigurinhas.setBounds(95, 250, 200, 30);
 		//setBounds ----> serve para dimensionar frame
 		//e as suas respectivas distâncias;
 		
@@ -46,7 +44,6 @@ import Controller.ControllerDados;
 		frame1.setLayout(null);
 		
 		frame1.add(titulo);
-		frame1.add(usuario);
 		frame1.add(figurinha);
 		frame1.add(albumFigurinhas);
 		frame1.add(buscarFigurinhaJogador);
@@ -66,7 +63,6 @@ import Controller.ControllerDados;
 	public static void main(String[] args) {
 		TelaMenuPrincipal menu = new TelaMenuPrincipal();
 		
-		usuario.addActionListener(menu);
 		figurinha.addActionListener(menu);
 		albumFigurinhas.addActionListener(menu);
 		buscarFigurinhaJogador.addActionListener(menu);
@@ -76,9 +72,6 @@ import Controller.ControllerDados;
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		
-		if(e.getSource() == usuario)
-			new TelaUsuario().mostrarDados(dados);
 
 		if(e.getSource() == figurinha)
 			new TelaMenuFigurinha().mostrarFigurinhas(dados);
