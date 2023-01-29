@@ -12,7 +12,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-public class TelaAlbum implements ActionListener, ListSelectionListener {
+public class TelaAlbum implements ActionListener, ListSelectionListener{
 
 	private JFrame janela;
 	private JLabel tituloAlbum;

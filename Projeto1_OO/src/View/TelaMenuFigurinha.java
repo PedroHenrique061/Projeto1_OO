@@ -13,7 +13,7 @@ import Controller.*;
 /**
  * Constroi uma tela de menu de figurinhas
  */
-public class TelaMenuFigurinha implements ActionListener {
+public class TelaMenuFigurinha implements ActionListener{
 	
 	private JFrame frame;
 	private JLabel titulo;

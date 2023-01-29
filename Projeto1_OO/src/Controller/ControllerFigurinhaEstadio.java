@@ -8,7 +8,7 @@ Implementa um controle para a classe de Figurinha de Estádio
 
 import Model.*;
 
-public class ControllerFigurinhaEstadio {
+public class ControllerFigurinhaEstadio{
 
 	private FigurinhaEstadio[] figurinhaEstadio;
 	private int qtdFigurinhasEstadios;

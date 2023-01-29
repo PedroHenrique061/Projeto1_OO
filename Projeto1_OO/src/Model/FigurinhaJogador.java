@@ -6,7 +6,7 @@ Cria a classe de figurinha de jogador herdando da classe figurinha
 * @version 1.0 
 */
 
-public class FigurinhaJogador extends Figurinha {
+public class FigurinhaJogador extends Figurinha{
 
 	private String posicao;
 	private String selecao;

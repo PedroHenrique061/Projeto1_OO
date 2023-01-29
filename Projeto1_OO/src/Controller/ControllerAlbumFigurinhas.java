@@ -7,7 +7,7 @@ Implementa um controle para a classe de Albuns de Figurinhas
 */
 
 import Model.*;
-
+ 
 public class ControllerAlbumFigurinhas {
 
 	private AlbumFigurinhas[] albumFigurinha = new AlbumFigurinhas[50];

@@ -6,7 +6,7 @@ package Controller;
 */
 
 import Model.*;
-
+ 
 /**
 Implementa um controle de dados de todas as classes, além de implementar 
 as funcionalidades minimas do código.

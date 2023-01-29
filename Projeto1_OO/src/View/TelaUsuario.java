@@ -8,7 +8,7 @@ import javax.swing.event.*;
 
 
 
-public class TelaUsuario implements ActionListener, ListSelectionListener {
+public class TelaUsuario implements ActionListener, ListSelectionListener{
 
 	private JFrame janela;
 	private JLabel tituloUsuario;

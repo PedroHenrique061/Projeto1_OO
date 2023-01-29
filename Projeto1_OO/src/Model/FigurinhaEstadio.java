@@ -13,7 +13,7 @@ public class FigurinhaEstadio extends Figurinha{
 	private String lendaria;
 	
 	// construtor da classe
-	public FigurinhaEstadio(String anoDeConstrucao, double capacidade) {
+	public FigurinhaEstadio(String anoDeConstrucao, double capacidade){
 		this.anoDeConstrucao = anoDeConstrucao;
 		this.capacidade = capacidade;
 	}

@@ -8,7 +8,7 @@ Cria a classe de album de figurinhas
 
 import java.util.List;
 
-public class AlbumFigurinhas {
+public class AlbumFigurinhas{
 	
 	private String id;
 	private int quantidadePaginas;

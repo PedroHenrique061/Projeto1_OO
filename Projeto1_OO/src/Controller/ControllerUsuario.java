@@ -11,7 +11,7 @@ public class ControllerUsuario {
 	private Usuario[] usuario;
 	private int qtdUsuarios;
 
-	public ControllerUsuario(ControllerDados dados) {
+	public ControllerUsuario(ControllerDados dados){
 		usuario = dados.getUsuario();
 		qtdUsuarios = dados.getQtdUsuarios();
 

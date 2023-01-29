@@ -34,7 +34,7 @@ public class TelaDetalheAlbum implements ActionListener{
 	 * (2) Detalhes do álbum
 	 */
 	public void cadastrarAlbum(int opcao, ControllerDados dados, 
-			TelaAlbum a, int pos) {
+			TelaAlbum a, int pos){
 
 		escolha = opcao;
 		posicao = pos;

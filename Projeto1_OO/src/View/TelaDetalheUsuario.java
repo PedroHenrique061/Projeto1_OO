@@ -38,7 +38,7 @@ public class TelaDetalheUsuario implements ActionListener{
 	 * @param posicao,posição do usuario escolhido na JList
 	 */
 	public void cadastrar(int opcao, ControllerDados dados, 
-			TelaUsuario u, int pos) {
+			TelaUsuario u, int pos){
 		
 		escolha = opcao;
 		posicao = pos;
@@ -49,7 +49,7 @@ public class TelaDetalheUsuario implements ActionListener{
 		
 		janela = new JFrame(s);
 		
-		if (opcao == 2) {
+		if (opcao == 2){
 			
 			valorNome = new JTextField(dados.getUsuario()[pos].getNome(), 200);
 			valorCPF = new JTextField(String.valueOf(dados.getUsuario()[pos].getCpf()), 200);

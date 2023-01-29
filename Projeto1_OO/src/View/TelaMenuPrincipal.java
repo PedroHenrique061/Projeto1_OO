@@ -30,7 +30,7 @@ import Controller.ControllerDados;
 	/** 
 	 * Construtor da classe
 	 */
-	public TelaMenuPrincipal() {
+	public TelaMenuPrincipal(){
 		titulo.setFont(new Font("Calibri", Font.BOLD, 20));
 		titulo.setBounds(125, 10, 150, 30);
 		usuario.setBounds(125, 50, 150, 30);

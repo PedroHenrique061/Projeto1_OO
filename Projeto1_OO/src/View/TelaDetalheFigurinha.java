@@ -50,7 +50,7 @@ public class TelaDetalheFigurinha implements ActionListener{
 	 * @param posicao = pos,posição do usuario escolhido na JList
 	 */
 	public void cadastrarFigurinha(int opcao, ControllerDados dados, 
-			TelaFigurinha f, int pos) {
+			TelaFigurinha f, int pos){
 
 		escolha = opcao;
 		posicao = pos;

@@ -6,7 +6,7 @@ import javax.swing.*;
 import javax.swing.event.*;
 import Controller.*;
 
-public class TelaFigurinha implements ActionListener, ListSelectionListener {
+public class TelaFigurinha implements ActionListener, ListSelectionListener{
 	
 	private JFrame frame;
 	private JLabel titulo;

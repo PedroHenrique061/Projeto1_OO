@@ -11,7 +11,7 @@ import Controller.ControllerDados;
  * @author Pedro Henrique Fernandino da Silva
  * @version 1.0 
  */
-public class Teste {
+public class Teste{
 
 	ControllerDados dados = new ControllerDados();
 	String[] novoDado = new String[7];

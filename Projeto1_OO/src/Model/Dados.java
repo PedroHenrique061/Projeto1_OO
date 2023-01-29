@@ -13,7 +13,7 @@ public class Dados {
 	
 	public void adicionarDados(){
 		
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < 5; i++){
 			
 			usuario[i] = new Usuario("Pedro", "00000000001" +i, "61999999999");
 			

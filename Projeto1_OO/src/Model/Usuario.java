@@ -8,7 +8,7 @@ Cria a classe de usuario
 
 import java.util.*;
 
-public class Usuario {
+public class Usuario{
 
 	private String nome;
 	private String cpf;

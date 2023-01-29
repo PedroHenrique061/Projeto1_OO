@@ -6,7 +6,7 @@ Cria a classe abstrata de figurinha
 * @version 1.0 
 */
 
-public abstract class Figurinha {
+public abstract class Figurinha{
 
 	private String id;
 	private String nome;

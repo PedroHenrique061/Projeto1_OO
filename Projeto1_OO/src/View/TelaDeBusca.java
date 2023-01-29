@@ -44,7 +44,7 @@ public class TelaDeBusca implements ActionListener {
 	 *  (3) opcao = album de figurinhas
 	 * @param dados
 	 */
-	public void mostrarTela(int opcao, ControllerDados dados) {
+	public void mostrarTela(int opcao, ControllerDados dados){
 		this.dados = dados;
 		this.opcao = opcao;
 

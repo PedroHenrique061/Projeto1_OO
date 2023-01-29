@@ -7,7 +7,7 @@ Implementa um controle para a classe de Figurinha de Jogador
 */
 
 import Model.*;
-
+ 
 public class ControllerFigurinhaJogador {
 
 	private FigurinhaJogador[] figurinhaJogador;

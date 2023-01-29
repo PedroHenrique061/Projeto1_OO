@@ -8,7 +8,7 @@ Cria a classe de teste, gerando uma instancia para objetos
 
 //import java.util.ArrayList;
 
-public class Teste {
+public class Teste{
 	/*
 	public static void main(String[] args) {
 		
